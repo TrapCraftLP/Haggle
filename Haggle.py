@@ -1,5 +1,6 @@
 import tkinter as tk
 window = tk.Tk()
+window.title("Haggle")
 greeting = tk.Label(text="Hello, Haggle user!", foreground="blue", 
 	width = 25, height = 10)  
 greeting.pack()
@@ -9,6 +10,8 @@ usernamelabel.pack()
 usernameentry = tk.Entry(master = usernameframe)
 usernameentry.pack()
 usernameframe.pack()
-startacall = tk.Button(text="Start a call!", bg="#3DE100", width = 25, height = 2) 
-startacall.pack()
+loginbutton = tk.Button(text="Login", bg="#3DE100", width = 25, height = 2) 
+loginbutton.pack()
+quitbutton = tk.Button(text="Quit Haggle", command=quit)
+quitbutton.pack()
 window.mainloop()
