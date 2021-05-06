@@ -1,6 +1,6 @@
 import tkinter as tk
 window = tk.Tk()
-window.title("Haggle")
+window.title("Haggle - Login")
 greeting = tk.Label(text="Hello, Haggle user!", foreground="blue", 
 	width = 25, height = 10)  
 greeting.pack()
